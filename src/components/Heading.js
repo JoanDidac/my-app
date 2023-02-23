@@ -2,9 +2,9 @@ const Heading = () => {
 
     return (
       <div className="headingDiv" >
-      <heading className="heading">
+      <Heading className="heading">
         <h1>Welcome to React Mongo Lover</h1>  
-      </heading>
+      </Heading>
       </div>
     )
   }

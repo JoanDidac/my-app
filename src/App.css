@@ -90,12 +90,50 @@
   
 }
 
+.logo {
+  
+  /* border: 1px solid red;
+  background-color: yellow; */
 
-/* @keyframes h1.Heading{
-  from {
-    transform: rotate(0deg);
+  -webkit-animation: rotate 5s normal linear infinite;
+  animation: rotate 5s normal linear infinite;
+  
+  position: absolute;
+  height: 50vw;
+  opacity: 0.8;
+}
+
+@keyframes logo{
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
   }
-  to {
-    transform: rotate(360deg);
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
   }
-} */
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, 270deg);
+    transform: rotate3d(0, 0, 1, 270deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+.logo img {
+  margin-left: 15vw;
+  position: relative;
+  height: 50vw;
+  opacity: 0.8;
+
+
+ 
+}
+
+
